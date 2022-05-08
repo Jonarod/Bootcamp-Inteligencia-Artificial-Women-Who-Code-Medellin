@@ -1,0 +1,1 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Jonarod/Bootcamp-Inteligencia-Artificial-Women-Who-Code-Medellin/blob/master/semana%203/CNN%20clasificacion/Transfer%20Learning/traffic_signs_Mobilenet_transfer_GPU.ipynb)
