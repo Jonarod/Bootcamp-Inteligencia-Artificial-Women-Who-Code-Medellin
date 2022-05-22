@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "saludo",
+      "patterns": [
+        "Hola",
+        "Cómo estás",
+        "Cómo estás tú",
+        "Qué tal",
+        "Buenos días"
+      ],
+      "responses": [
+        "Hola :-)",
+        "Hola, gracias por visitarnos",
+        "Hola, ¿qué puedo hacer por ti?",
+        "Hola, ¿cómo puedo ayudar?"
+      ]
+    },
+    {
+      "tag": "adiós",
+      "patterns": ["adiós", "hasta luego"],
+      "responses": [
+        "Nos vemos pronto",
+        "Hasta luego, gracias por visitarnos",
+        "Que tenga un lindo día",
+        "¡Chau! Vuelve pronto."
+      ]
+    },
+    {
+      "tag": "Gracias",
+      "patterns": ["Gracias", "mucho gracias", "eso es útil"],
+      "responses": ["Encantado de ayudar!", "¡En cualquier momento!", "Mi placer"]
+    },
+    {
+      "tag": "artículos",
+      "patterns": [
+        "¿Qué artículos tienes?",
+        "¿Qué tipo de artículos hay?",
+        "¿Qué vendes?"
+      ],
+      "responses": [
+        "Nosotros vendemos cafe y te",
+        "Nosotros tenemos cafe y te"
+      ]
+    },
+    {
+      "tag": "pagos",
+      "patterns": [
+        "¿Aceptan tarjetas de crédito?",
+        "¿Aceptan MasterCard?",
+        "¿Puedo pagar con PayPal?",
+        "¿Es solo efectivo?"
+      ],
+      "responses": [
+        "Aceptamos VISA, Mastercard y Paypal",
+        "Aceptamos la mayoría de las principales tarjetas de crédito y Paypal."
+      ]
+    },
+    {
+      "tag": "entrega",
+      "patterns": [
+        "¿Cuánto tiempo tarda la entrega?",
+        "Cuanto tiempo tarda el envio?",
+        "¿Cuándo recibo mi entrega?"
+      ],
+      "responses": [
+        "La entrega tarda de 2 a 4 días.",
+        "El envío tarda de 2 a 4 días"
+      ]
+    },
+    {
+      "tag": "gracioso",
+      "patterns": [
+        "¡Cuéntame un chiste!",
+        "¡Dime algo gracioso!",
+        "¿Conoces un chiste?"
+      ],
+      "responses": [
+        "Cuáles son las vacas más perezosas? Vacaciones!",
+        "Jaimito, ¿qué planeta va después de Marte? Miércole!"
+      ]
+    }
+  ]
+}

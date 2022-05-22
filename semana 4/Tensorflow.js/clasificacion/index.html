@@ -1,0 +1,70 @@
+<!doctype html>
+
+<head>
+  <title>MobileNet con TensorFlow.js</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" href="../shared/tfjs-examples.css" /> -->
+</head>
+
+<style>
+  .pred-container {
+    margin-bottom: 20px;
+  }
+
+  .pred-container > div {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+
+  .row {
+    display: table-row;
+  }
+  .cell {
+    display: table-cell;
+    padding-right: 20px;
+  }
+
+  #file-container {
+    margin-bottom: 20px;
+  }
+</style>
+
+<body>
+  <div class="tfjs-example-container">
+    <section class='title-area'>
+      <h1>Mobilenet pre-entrenado con TensorFlow.js</h1>
+    </section>
+
+    <section>
+      <p class='section-head'>Description</p>
+      <p>
+        Usamos el modelo MobileNet_25_224 pre-entrenado con Keras, el cual se puede bajar
+        <a href="./mobilenet_2_5_224_tf.h5">aqui</a>.
+
+        Estuvo entrenado con IMAGENET, aca estan los objetos con los cuales estuvo entrenado <a
+          href="./imagenet_classes.js">Clases Imagenet</a>.
+      </p>
+    </section>
+
+    <section>
+      <p class='section-head'>Status</p>
+      <div id="status"></div>
+    </section>
+
+    <section>
+      <p class='section-head'>Predicciones:</p>
+
+      <div id="file-container" style="display: none">
+        Subir una imagen: <input type="file" id="files" name="files[]" multiple />
+      </div>
+
+      <div id="predictions"></div>
+
+      <img style="display: none" id="cat" src="cat.jpg" width=224 height=224 />
+    </section>
+
+    <script type="module" src="index.js"></script>
+  </div>
+</body>
